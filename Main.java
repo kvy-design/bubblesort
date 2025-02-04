@@ -4,7 +4,7 @@ class BubbleSort
 	int j;
 	int i ;
 	boolean swp;
-	public void bubblesort(int []a, int n)
+	public static void bubblesort(int []a, int n)
 	{
 		for(i=0;i<n-1;i++)
 		{
